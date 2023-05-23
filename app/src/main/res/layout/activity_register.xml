@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg4"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logo_app" />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+        />
+    <EditText
+        android:id="@+id/editTextRPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Re Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:background="@drawable/input_bg"
+        android:textStyle="bold"
+        app:backgroundTint="#03A9F4"
+
+        />
+
+    <TextView
+        android:id="@+id/txtHaveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Already have Account ? Login"
+        />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/if1" />
+
+</LinearLayout>

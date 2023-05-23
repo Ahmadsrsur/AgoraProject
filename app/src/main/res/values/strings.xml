@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gakku</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_room">Create Room</string>
+    <string name="join_room">Join Room</string>
+    <string name="agora_key">fc145ed0ab9745d9842237e07971dee4</string>
+    <string name="certificate_key">3a6bc537509a4075b8916682517a10bb</string>
+    <string name="enter_room_name">Enter Room Name</string>
+    <string name="submit">Submit</string>
+    <string name="send_questionnaire">Send Question</string>
+    <string name="result_will_show_after">Result will show after</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_question_to_firebase">Save Question</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="import_questions">Import Questions</string>
+    <string name="enter_minutes_for_timer">Enter minutes for timer</string>
+    <string name="select">Select</string>
+    <string name="imported_question">Imported Question</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+</resources>
